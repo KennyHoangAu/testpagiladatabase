@@ -4,16 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <script src="scripts/d3.v6.min.js"></script>
-  <title>Postgres Template</title>
+  <title>Postgres Templatebenny</title>
 </head>
 
 <body>
-  <h1>Postgres Template</h1>
+  <h1>Postgres TemplateKennyBennySwenny</h1>
 
   <script>
   d3.json("/postgresql/query", {
     method: "POST", 
-    body: `SELECT 'Hello, World' as message` // Bare en test-query
+    body: `SELECT 'pagila test' as message` // Bare en test-query
   }).then(function(response) {
     const data = response.data;
     console.log("data", data);
